@@ -148,3 +148,12 @@ npm run build
 
 Built as a hackathon prototype focused on closing the loop between a technical fix and its real customer impact.
 
+## Team
+
+AfterCheck was built as a team project by:
+
+- [Andrei Bărbuceanu](https://github.com/andreibarbuceanu) — @andreibarbuceanu
+- [Mihai Bala](https://github.com/MihaiB3) — @MihaiB3
+- [Teodora Tîrcă](https://github.com/teodoratirca13) — @teodoratirca13
+- [Ștefania Boteanu](https://github.com/Steefyy) — @Steefyy
+
