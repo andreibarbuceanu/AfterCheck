@@ -1,0 +1,1158 @@
+{
+  "tickets": [
+    {
+      "id": "WB-1001",
+      "opened": "2026-01-06",
+      "channel": "Aplicație iOS",
+      "category": "Notificări",
+      "feature": "Schimbare poartă",
+      "title": "Notificarea de schimbare a porții ajunge după îmbarcare",
+      "description": "Notificarea push despre poarta nouă ajunge cu 20–40 de minute întârziere.",
+      "severity": "Mare",
+      "reports": 120,
+      "version_reported": "3.0.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.1.0",
+      "fix_date": "2026-01-31",
+      "closed": "",
+      "team": "Echipa Mobile",
+      "linked": "",
+      "keywords_en": "gate change not notified; missed flight gate change; no notification delay"
+    },
+    {
+      "id": "WB-1002",
+      "opened": "2026-02-02",
+      "channel": "Web",
+      "category": "Rambursări",
+      "feature": "BeeCredit",
+      "title": "Rambursarea se face automat în BeeCredit în loc de card",
+      "description": "Opțiunea implicită de rambursare este creditul în cont, iar clientul nu poate alege cardul.",
+      "severity": "Mare",
+      "reports": 125,
+      "version_reported": "3.1.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.3.0",
+      "fix_date": "2026-03-12",
+      "closed": "",
+      "team": "Echipa Rambursări",
+      "linked": "",
+      "keywords_en": "refund as credit only; forced voucher; wizz credit instead of refund"
+    },
+    {
+      "id": "WB-1003",
+      "opened": "2026-02-13",
+      "channel": "Web",
+      "category": "Check-in",
+      "feature": "Boarding pass",
+      "title": "Boarding pass-ul nu se descarcă pe Android 14",
+      "description": "Butonul „Descarcă boarding pass” nu face nimic pe Android 14. Pe iOS și web funcționează.",
+      "severity": "Mare",
+      "reports": 55,
+      "version_reported": "3.1.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.3.0",
+      "fix_date": "2026-03-12",
+      "closed": "",
+      "team": "Echipa Mobile",
+      "linked": "",
+      "keywords_en": "boarding pass download not working; boarding pass app android; can't get boarding pass"
+    },
+    {
+      "id": "WB-1004",
+      "opened": "2026-02-14",
+      "channel": "Aplicație iOS",
+      "category": "Notificări",
+      "feature": "Schimbare poartă",
+      "title": "[Redeschis după fix] Notificarea de schimbare a porții ajunge după îmbarcare",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.1.0 (WB-1001). Notificarea push despre poarta nouă ajunge cu 20–40 de minute întârziere.",
+      "severity": "Mare",
+      "reports": 266,
+      "version_reported": "3.1.0",
+      "status": "În lucru",
+      "fix_version": "",
+      "fix_date": "",
+      "closed": "",
+      "team": "Echipa Mobile",
+      "linked": "WB-1001",
+      "keywords_en": "gate change not notified; missed flight gate change; no notification delay"
+    },
+    {
+      "id": "WB-1005",
+      "opened": "2026-03-03",
+      "channel": "Email",
+      "category": "Cont",
+      "feature": "Profil",
+      "title": "Modificarea numelui pe bilet cere taxă chiar și pentru o greșeală de tastare",
+      "description": "Corectarea unei litere din nume este taxată ca schimbare completă de nume.",
+      "severity": "Medie",
+      "reports": 71,
+      "version_reported": "3.2.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.3.0",
+      "fix_date": "2026-03-12",
+      "closed": "",
+      "team": "Echipa Rezervări",
+      "linked": "",
+      "keywords_en": "name change fee; typo in name charged; correct name on ticket"
+    },
+    {
+      "id": "WB-1006",
+      "opened": "2026-03-25",
+      "channel": "Aplicație iOS",
+      "category": "Rambursări",
+      "feature": "BeeCredit",
+      "title": "[Redeschis după fix] Rambursarea se face automat în BeeCredit în loc de card",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.3.0 (WB-1002). Opțiunea implicită de rambursare este creditul în cont, iar clientul nu poate alege cardul.",
+      "severity": "Mare",
+      "reports": 46,
+      "version_reported": "3.3.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.5.0",
+      "fix_date": "2026-04-21",
+      "closed": "",
+      "team": "Echipa Rambursări",
+      "linked": "WB-1002",
+      "keywords_en": "refund as credit only; forced voucher; wizz credit instead of refund"
+    },
+    {
+      "id": "WB-1007",
+      "opened": "2026-03-27",
+      "channel": "Email",
+      "category": "Check-in",
+      "feature": "Boarding pass",
+      "title": "[Redeschis după fix] Boarding pass-ul nu se descarcă pe Android 14",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.3.0 (WB-1003). Butonul „Descarcă boarding pass” nu face nimic pe Android 14. Pe iOS și web funcționează.",
+      "severity": "Mare",
+      "reports": 138,
+      "version_reported": "3.3.0",
+      "status": "În lucru",
+      "fix_version": "",
+      "fix_date": "",
+      "closed": "",
+      "team": "Echipa Mobile",
+      "linked": "WB-1003",
+      "keywords_en": "boarding pass download not working; boarding pass app android; can't get boarding pass"
+    },
+    {
+      "id": "WB-1008",
+      "opened": "2026-03-29",
+      "channel": "Aplicație iOS",
+      "category": "Bagaje",
+      "feature": "Adăugare bagaj",
+      "title": "Prețul bagajului de cală crește după rezervare",
+      "description": "Același bagaj de 20 kg costă mult mai mult când e adăugat după rezervare. Prețul nu e afișat clar la rezervare.",
+      "severity": "Medie",
+      "reports": 30,
+      "version_reported": "3.3.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.6.0",
+      "fix_date": "2026-05-11",
+      "closed": "",
+      "team": "Echipa Ancillaries",
+      "linked": "",
+      "keywords_en": "baggage price after booking; checked bag expensive; luggage fee increase"
+    },
+    {
+      "id": "WB-1009",
+      "opened": "2026-04-12",
+      "channel": "Web",
+      "category": "Plăți",
+      "feature": "Plată card",
+      "title": "Plata e respinsă, dar suma e blocată pe card",
+      "description": "Clientul vede „Plată eșuată”, însă banca blochează suma. Clientul reîncearcă și ajunge să plătească de două ori.",
+      "severity": "Critică",
+      "reports": 86,
+      "version_reported": "3.4.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.6.0",
+      "fix_date": "2026-05-11",
+      "closed": "",
+      "team": "Echipa Plăți",
+      "linked": "",
+      "keywords_en": "payment failed but charged; double charged; money taken booking failed"
+    },
+    {
+      "id": "WB-1010",
+      "opened": "2026-04-12",
+      "channel": "Rețele sociale",
+      "category": "Plăți",
+      "feature": "Conversie valutară",
+      "title": "Prețul în RON diferă între căutare și plată",
+      "description": "Tariful afișat la căutare este în RON, dar la plată apare o sumă mai mare, din cauza unui curs de schimb vechi.",
+      "severity": "Medie",
+      "reports": 89,
+      "version_reported": "3.4.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.6.0",
+      "fix_date": "2026-05-11",
+      "closed": "",
+      "team": "Echipa Plăți",
+      "linked": "",
+      "keywords_en": "price changed at checkout; currency conversion wrong; hidden fees checkout"
+    },
+    {
+      "id": "WB-1011",
+      "opened": "2026-04-14",
+      "channel": "Call center",
+      "category": "Rezervare",
+      "feature": "Priority",
+      "title": "Priority Boarding nu apare pe boarding pass după upgrade",
+      "description": "Clientul cumpără Priority după rezervare, dar boarding pass-ul nu se actualizează și e oprit la poartă.",
+      "severity": "Mare",
+      "reports": 149,
+      "version_reported": "3.4.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.6.0",
+      "fix_date": "2026-05-11",
+      "closed": "",
+      "team": "Echipa Ancillaries",
+      "linked": "",
+      "keywords_en": "priority boarding not on boarding pass; paid priority refused; priority not showing"
+    },
+    {
+      "id": "WB-1012",
+      "opened": "2026-04-17",
+      "channel": "Rețele sociale",
+      "category": "Bagaje",
+      "feature": "Dimensiuni bagaj",
+      "title": "Ghidul de dimensiuni pentru bagajul de mână e neclar",
+      "description": "Pagina de bagaje nu arată clar diferența dintre geanta mică gratuită și trolerul de 10 kg. Clienții plătesc taxe la poartă.",
+      "severity": "Mică",
+      "reports": 41,
+      "version_reported": "3.4.0",
+      "status": "Închis – nu se reproduce",
+      "fix_version": "",
+      "fix_date": "",
+      "closed": "2026-04-29",
+      "team": "Echipa Conținut",
+      "linked": "",
+      "keywords_en": "cabin bag size; carry-on fee at gate; hand luggage charged gate"
+    },
+    {
+      "id": "WB-1013",
+      "opened": "2026-04-17",
+      "channel": "Email",
+      "category": "Rezervare",
+      "feature": "Selecție locuri",
+      "title": "Harta de locuri nu se încarcă pentru zborurile cu A321neo",
+      "description": "La aeronavele A321neo harta rămâne goală și clientul nu poate alege loc.",
+      "severity": "Mare",
+      "reports": 255,
+      "version_reported": "3.4.0",
+      "status": "Închis – nu se reproduce",
+      "fix_version": "",
+      "fix_date": "",
+      "closed": "2026-04-22",
+      "team": "Echipa Rezervări",
+      "linked": "",
+      "keywords_en": "seat map not loading; can't select seat; seat selection error"
+    },
+    {
+      "id": "WB-1014",
+      "opened": "2026-04-25",
+      "channel": "Call center",
+      "category": "Aplicație",
+      "feature": "Stabilitate",
+      "title": "Aplicația iOS se închide la deschiderea rezervării",
+      "description": "Pe iOS 19.1, aplicația se închide imediat după ce clientul apasă pe o rezervare din „Călătoriile mele”.",
+      "severity": "Critică",
+      "reports": 376,
+      "version_reported": "3.5.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.7.0",
+      "fix_date": "2026-05-30",
+      "closed": "",
+      "team": "Echipa Mobile",
+      "linked": "",
+      "keywords_en": "app crashes; app keeps crashing ios; app closes booking"
+    },
+    {
+      "id": "WB-1015",
+      "opened": "2026-04-26",
+      "channel": "Rețele sociale",
+      "category": "Rezervare",
+      "feature": "Căutare zboruri",
+      "title": "Căutarea flexibilă afișează zboruri anulate",
+      "description": "Calendarul de tarife arată prețuri pentru zboruri deja anulate din orar.",
+      "severity": "Medie",
+      "reports": 34,
+      "version_reported": "3.5.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.6.0",
+      "fix_date": "2026-05-11",
+      "closed": "",
+      "team": "Echipa Rezervări",
+      "linked": "",
+      "keywords_en": "flight cancelled after booking; booked cancelled flight; search shows cancelled"
+    },
+    {
+      "id": "WB-1016",
+      "opened": "2026-05-02",
+      "channel": "Aplicație iOS",
+      "category": "Rezervare",
+      "feature": "Selecție locuri",
+      "title": "[Raportat din nou] Harta de locuri nu se încarcă pentru zborurile cu A321neo",
+      "description": "Problema apare din nou după închiderea WB-1013. La aeronavele A321neo harta rămâne goală și clientul nu poate alege loc.",
+      "severity": "Mare",
+      "reports": 81,
+      "version_reported": "3.5.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.8.0",
+      "fix_date": "2026-06-18",
+      "closed": "",
+      "team": "Echipa Rezervări",
+      "linked": "WB-1013",
+      "keywords_en": "seat map not loading; can't select seat; seat selection error"
+    },
+    {
+      "id": "WB-1017",
+      "opened": "2026-05-04",
+      "channel": "Email",
+      "category": "Rezervare",
+      "feature": "Selecție locuri",
+      "title": "Familiile sunt așezate separat deși au plătit locuri",
+      "description": "Locurile alese pentru copii sunt reatribuite la check-in, iar copiii ajung separați de părinți.",
+      "severity": "Mare",
+      "reports": 8,
+      "version_reported": "3.5.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.7.0",
+      "fix_date": "2026-05-30",
+      "closed": "",
+      "team": "Echipa Rezervări",
+      "linked": "",
+      "keywords_en": "family seated apart; kids separated from parents; paid seats changed"
+    },
+    {
+      "id": "WB-1018",
+      "opened": "2026-05-09",
+      "channel": "Rețele sociale",
+      "category": "Notificări",
+      "feature": "Întârzieri",
+      "title": "Nu se trimite email la întârzieri de peste 3 ore",
+      "description": "Clienții nu sunt anunțați de întârzierile mari și nu află că pot cere compensație.",
+      "severity": "Mare",
+      "reports": 295,
+      "version_reported": "3.5.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.7.0",
+      "fix_date": "2026-05-30",
+      "closed": "",
+      "team": "Echipa Operațiuni Digitale",
+      "linked": "",
+      "keywords_en": "flight delay no information; delayed no email; compensation delay"
+    },
+    {
+      "id": "WB-1019",
+      "opened": "2026-05-09",
+      "channel": "Aplicație iOS",
+      "category": "Asistență specială",
+      "feature": "PRM",
+      "title": "Cererea de asistență specială nu ajunge la aeroport",
+      "description": "Cererile de asistență cu scaun rulant făcute din aplicație nu sunt transmise echipei de la aeroport.",
+      "severity": "Critică",
+      "reports": 87,
+      "version_reported": "3.5.0",
+      "status": "Închis – nu se reproduce",
+      "fix_version": "",
+      "fix_date": "",
+      "closed": "2026-05-18",
+      "team": "Echipa Operațiuni Digitale",
+      "linked": "",
+      "keywords_en": "wheelchair assistance not provided; special assistance failed; reduced mobility"
+    },
+    {
+      "id": "WB-1020",
+      "opened": "2026-05-10",
+      "channel": "Rețele sociale",
+      "category": "Bagaje",
+      "feature": "Dimensiuni bagaj",
+      "title": "[Raportat din nou] Ghidul de dimensiuni pentru bagajul de mână e neclar",
+      "description": "Problema apare din nou după închiderea WB-1012. Pagina de bagaje nu arată clar diferența dintre geanta mică gratuită și trolerul de 10 kg. Clienții plătesc taxe la poartă.",
+      "severity": "Mică",
+      "reports": 59,
+      "version_reported": "3.5.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.8.0",
+      "fix_date": "2026-06-18",
+      "closed": "",
+      "team": "Echipa Conținut",
+      "linked": "WB-1012",
+      "keywords_en": "cabin bag size; carry-on fee at gate; hand luggage charged gate"
+    },
+    {
+      "id": "WB-1021",
+      "opened": "2026-05-14",
+      "channel": "Web",
+      "category": "Rambursări",
+      "feature": "Cerere rambursare",
+      "title": "Cererile de rambursare rămân „În procesare” peste 30 de zile",
+      "description": "După anularea zborului, cererile de rambursare nu trec de starea „În procesare”. Clienții nu primesc nicio actualizare.",
+      "severity": "Critică",
+      "reports": 330,
+      "version_reported": "3.6.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.7.0",
+      "fix_date": "2026-05-30",
+      "closed": "",
+      "team": "Echipa Rambursări",
+      "linked": "",
+      "keywords_en": "refund not received; refund pending weeks; still waiting for refund"
+    },
+    {
+      "id": "WB-1022",
+      "opened": "2026-05-22",
+      "channel": "Call center",
+      "category": "Check-in",
+      "feature": "Boarding pass",
+      "title": "Codul QR de pe boarding pass nu e citit la poartă",
+      "description": "Codul QR generat în aplicație are contrast prea mic în modul întunecat. Scannerele de la poartă nu îl citesc.",
+      "severity": "Mare",
+      "reports": 43,
+      "version_reported": "3.6.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.8.0",
+      "fix_date": "2026-06-18",
+      "closed": "",
+      "team": "Echipa Mobile",
+      "linked": "",
+      "keywords_en": "boarding pass qr not scanning; gate scanner rejected; dark mode boarding pass"
+    },
+    {
+      "id": "WB-1023",
+      "opened": "2026-06-13",
+      "channel": "Web",
+      "category": "Plăți",
+      "feature": "Plată card",
+      "title": "[Redeschis după fix] Plata e respinsă, dar suma e blocată pe card",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.6.0 (WB-1009). Clientul vede „Plată eșuată”, însă banca blochează suma. Clientul reîncearcă și ajunge să plătească de două ori.",
+      "severity": "Critică",
+      "reports": 362,
+      "version_reported": "3.7.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.9.0",
+      "fix_date": "2026-07-10",
+      "closed": "",
+      "team": "Echipa Plăți",
+      "linked": "WB-1009",
+      "keywords_en": "payment failed but charged; double charged; money taken booking failed"
+    },
+    {
+      "id": "WB-1024",
+      "opened": "2026-06-16",
+      "channel": "Web",
+      "category": "Rezervare",
+      "feature": "Selecție locuri",
+      "title": "[Redeschis după fix] Familiile sunt așezate separat deși au plătit locuri",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.7.0 (WB-1017). Locurile alese pentru copii sunt reatribuite la check-in, iar copiii ajung separați de părinți.",
+      "severity": "Mare",
+      "reports": 396,
+      "version_reported": "3.7.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.10.0",
+      "fix_date": "2026-07-29",
+      "closed": "",
+      "team": "Echipa Rezervări",
+      "linked": "WB-1017",
+      "keywords_en": "family seated apart; kids separated from parents; paid seats changed"
+    },
+    {
+      "id": "WB-1025",
+      "opened": "2026-06-19",
+      "channel": "Aplicație iOS",
+      "category": "Aplicație",
+      "feature": "Performanță",
+      "title": "Încărcare lentă a paginii de plată pe web",
+      "description": "Pagina de plată se încarcă în 8–12 secunde și unii clienți abandonează rezervarea.",
+      "severity": "Medie",
+      "reports": 32,
+      "version_reported": "3.8.0",
+      "status": "Închis – nu se reproduce",
+      "fix_version": "",
+      "fix_date": "",
+      "closed": "2026-06-27",
+      "team": "Echipa Web",
+      "linked": "",
+      "keywords_en": "website slow; checkout page slow; website keeps loading"
+    },
+    {
+      "id": "WB-1026",
+      "opened": "2026-06-20",
+      "channel": "Aplicație iOS",
+      "category": "Suport",
+      "feature": "Chat",
+      "title": "Asistentul chat repetă aceleași răspunsuri și nu transferă la un agent",
+      "description": "Asistentul chat nu oferă opțiunea de a vorbi cu un agent, iar clientul rămâne blocat.",
+      "severity": "Mare",
+      "reports": 388,
+      "version_reported": "3.8.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.10.0",
+      "fix_date": "2026-07-29",
+      "closed": "",
+      "team": "Echipa Suport",
+      "linked": "",
+      "keywords_en": "customer service chat bot useless; can't reach human; no customer support"
+    },
+    {
+      "id": "WB-1027",
+      "opened": "2026-07-07",
+      "channel": "Call center",
+      "category": "Check-in",
+      "feature": "Check-in online",
+      "title": "Check-in-ul online eșuează pentru grupuri de peste 4 pasageri",
+      "description": "La finalizarea check-in-ului pentru 5+ pasageri apare eroarea „Ceva nu a mers bine”. Pasagerii sunt trimiși la ghișeu și plătesc taxa de check-in în aeroport.",
+      "severity": "Critică",
+      "reports": 115,
+      "version_reported": "3.8.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.11.0",
+      "fix_date": "2026-08-17",
+      "closed": "",
+      "team": "Echipa Check-in",
+      "linked": "",
+      "keywords_en": "online check-in failed; check-in error group; forced airport check-in fee"
+    },
+    {
+      "id": "WB-1028",
+      "opened": "2026-07-07",
+      "channel": "Rețele sociale",
+      "category": "Bagaje",
+      "feature": "Dimensiuni bagaj",
+      "title": "[Redeschis după fix] Ghidul de dimensiuni pentru bagajul de mână e neclar",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.8.0 (WB-1020). Pagina de bagaje nu arată clar diferența dintre geanta mică gratuită și trolerul de 10 kg. Clienții plătesc taxe la poartă.",
+      "severity": "Mică",
+      "reports": 75,
+      "version_reported": "3.8.0",
+      "status": "În lucru",
+      "fix_version": "",
+      "fix_date": "",
+      "closed": "",
+      "team": "Echipa Conținut",
+      "linked": "WB-1020",
+      "keywords_en": "cabin bag size; carry-on fee at gate; hand luggage charged gate"
+    },
+    {
+      "id": "WB-1029",
+      "opened": "2026-07-08",
+      "channel": "Email",
+      "category": "Rezervare",
+      "feature": "Selecție locuri",
+      "title": "[Redeschis după fix] Harta de locuri nu se încarcă pentru zborurile cu A321neo",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.8.0 (WB-1016). La aeronavele A321neo harta rămâne goală și clientul nu poate alege loc.",
+      "severity": "Mare",
+      "reports": 35,
+      "version_reported": "3.8.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.11.0",
+      "fix_date": "2026-08-17",
+      "closed": "",
+      "team": "Echipa Rezervări",
+      "linked": "WB-1016",
+      "keywords_en": "seat map not loading; can't select seat; seat selection error"
+    },
+    {
+      "id": "WB-1030",
+      "opened": "2026-07-09",
+      "channel": "Call center",
+      "category": "Notificări",
+      "feature": "Întârzieri",
+      "title": "[Redeschis după fix] Nu se trimite email la întârzieri de peste 3 ore",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.7.0 (WB-1018). Clienții nu sunt anunțați de întârzierile mari și nu află că pot cere compensație.",
+      "severity": "Mare",
+      "reports": 100,
+      "version_reported": "3.8.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.10.0",
+      "fix_date": "2026-07-29",
+      "closed": "",
+      "team": "Echipa Operațiuni Digitale",
+      "linked": "WB-1018",
+      "keywords_en": "flight delay no information; delayed no email; compensation delay"
+    },
+    {
+      "id": "WB-1031",
+      "opened": "2026-07-11",
+      "channel": "Web",
+      "category": "Rambursări",
+      "feature": "Cerere rambursare",
+      "title": "[Redeschis după fix] Cererile de rambursare rămân „În procesare” peste 30 de zile",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.7.0 (WB-1021). După anularea zborului, cererile de rambursare nu trec de starea „În procesare”. Clienții nu primesc nicio actualizare.",
+      "severity": "Critică",
+      "reports": 393,
+      "version_reported": "3.9.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.11.0",
+      "fix_date": "2026-08-17",
+      "closed": "",
+      "team": "Echipa Rambursări",
+      "linked": "WB-1021",
+      "keywords_en": "refund not received; refund pending weeks; still waiting for refund"
+    },
+    {
+      "id": "WB-1032",
+      "opened": "2026-07-11",
+      "channel": "Aplicație Android",
+      "category": "Aplicație",
+      "feature": "Performanță",
+      "title": "[Raportat din nou] Încărcare lentă a paginii de plată pe web",
+      "description": "Problema apare din nou după închiderea WB-1025. Pagina de plată se încarcă în 8–12 secunde și unii clienți abandonează rezervarea.",
+      "severity": "Medie",
+      "reports": 55,
+      "version_reported": "3.9.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.10.0",
+      "fix_date": "2026-07-29",
+      "closed": "",
+      "team": "Echipa Web",
+      "linked": "WB-1025",
+      "keywords_en": "website slow; checkout page slow; website keeps loading"
+    },
+    {
+      "id": "WB-1033",
+      "opened": "2026-07-11",
+      "channel": "Rețele sociale",
+      "category": "Abonamente",
+      "feature": "BeeClub",
+      "title": "Reducerea BeeClub nu se aplică la bagaje",
+      "description": "Membrii BeeClub nu primesc reducerea promisă la bagajul de cală.",
+      "severity": "Mică",
+      "reports": 63,
+      "version_reported": "3.9.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.11.0",
+      "fix_date": "2026-08-17",
+      "closed": "",
+      "team": "Echipa Ancillaries",
+      "linked": "",
+      "keywords_en": "discount club not applied; membership discount; club price not working"
+    },
+    {
+      "id": "WB-1034",
+      "opened": "2026-07-18",
+      "channel": "Aplicație Android",
+      "category": "Cont",
+      "feature": "Autentificare",
+      "title": "Codul OTP de autentificare nu ajunge prin SMS",
+      "description": "Pentru numerele din România și Italia, SMS-ul cu codul de autentificare ajunge cu întârziere sau deloc.",
+      "severity": "Mare",
+      "reports": 340,
+      "version_reported": "3.9.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.11.0",
+      "fix_date": "2026-08-17",
+      "closed": "",
+      "team": "Echipa Identitate",
+      "linked": "",
+      "keywords_en": "verification code not received; sms code login; can't log in account"
+    },
+    {
+      "id": "WB-1035",
+      "opened": "2026-07-24",
+      "channel": "Email",
+      "category": "Plăți",
+      "feature": "Plată card",
+      "title": "[Redeschis după fix] Plata e respinsă, dar suma e blocată pe card",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.9.0 (WB-1023). Clientul vede „Plată eșuată”, însă banca blochează suma. Clientul reîncearcă și ajunge să plătească de două ori.",
+      "severity": "Critică",
+      "reports": 376,
+      "version_reported": "3.9.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.12.0",
+      "fix_date": "2026-09-05",
+      "closed": "",
+      "team": "Echipa Plăți",
+      "linked": "WB-1023",
+      "keywords_en": "payment failed but charged; double charged; money taken booking failed"
+    },
+    {
+      "id": "WB-1036",
+      "opened": "2026-08-02",
+      "channel": "Email",
+      "category": "Check-in",
+      "feature": "Boarding pass",
+      "title": "[Redeschis după fix] Codul QR de pe boarding pass nu e citit la poartă",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.8.0 (WB-1022). Codul QR generat în aplicație are contrast prea mic în modul întunecat. Scannerele de la poartă nu îl citesc.",
+      "severity": "Mare",
+      "reports": 188,
+      "version_reported": "3.10.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.12.0",
+      "fix_date": "2026-09-05",
+      "closed": "",
+      "team": "Echipa Mobile",
+      "linked": "WB-1022",
+      "keywords_en": "boarding pass qr not scanning; gate scanner rejected; dark mode boarding pass"
+    },
+    {
+      "id": "WB-1037",
+      "opened": "2026-08-19",
+      "channel": "Aplicație iOS",
+      "category": "Aplicație",
+      "feature": "Performanță",
+      "title": "[Redeschis după fix] Încărcare lentă a paginii de plată pe web",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.10.0 (WB-1032). Pagina de plată se încarcă în 8–12 secunde și unii clienți abandonează rezervarea.",
+      "severity": "Medie",
+      "reports": 57,
+      "version_reported": "3.11.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.12.0",
+      "fix_date": "2026-09-05",
+      "closed": "",
+      "team": "Echipa Web",
+      "linked": "WB-1032",
+      "keywords_en": "website slow; checkout page slow; website keeps loading"
+    },
+    {
+      "id": "WB-1038",
+      "opened": "2026-09-05",
+      "channel": "Aplicație iOS",
+      "category": "Abonamente",
+      "feature": "BeeClub",
+      "title": "[Redeschis după fix] Reducerea BeeClub nu se aplică la bagaje",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.11.0 (WB-1033). Membrii BeeClub nu primesc reducerea promisă la bagajul de cală.",
+      "severity": "Mică",
+      "reports": 75,
+      "version_reported": "3.12.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.13.0",
+      "fix_date": "2026-09-25",
+      "closed": "",
+      "team": "Echipa Ancillaries",
+      "linked": "WB-1033",
+      "keywords_en": "discount club not applied; membership discount; club price not working"
+    },
+    {
+      "id": "WB-1039",
+      "opened": "2026-09-06",
+      "channel": "Email",
+      "category": "Rambursări",
+      "feature": "Cerere rambursare",
+      "title": "[Redeschis după fix] Cererile de rambursare rămân „În procesare” peste 30 de zile",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.11.0 (WB-1031). După anularea zborului, cererile de rambursare nu trec de starea „În procesare”. Clienții nu primesc nicio actualizare.",
+      "severity": "Critică",
+      "reports": 3,
+      "version_reported": "3.12.0",
+      "status": "Rezolvat – fix livrat",
+      "fix_version": "3.14.0",
+      "fix_date": "2026-10-15",
+      "closed": "",
+      "team": "Echipa Rambursări",
+      "linked": "WB-1031",
+      "keywords_en": "refund not received; refund pending weeks; still waiting for refund"
+    },
+    {
+      "id": "WB-1040",
+      "opened": "2026-09-24",
+      "channel": "Aplicație Android",
+      "category": "Check-in",
+      "feature": "Check-in online",
+      "title": "[Redeschis după fix] Check-in-ul online eșuează pentru grupuri de peste 4 pasageri",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.11.0 (WB-1027). La finalizarea check-in-ului pentru 5+ pasageri apare eroarea „Ceva nu a mers bine”. Pasagerii sunt trimiși la ghișeu și plătesc taxa de check-in în aeroport.",
+      "severity": "Critică",
+      "reports": 360,
+      "version_reported": "3.12.0",
+      "status": "Nou",
+      "fix_version": "",
+      "fix_date": "",
+      "closed": "",
+      "team": "Echipa Check-in",
+      "linked": "WB-1027",
+      "keywords_en": "online check-in failed; check-in error group; forced airport check-in fee"
+    },
+    {
+      "id": "WB-1041",
+      "opened": "2026-09-26",
+      "channel": "Aplicație Android",
+      "category": "Cont",
+      "feature": "Autentificare",
+      "title": "[Redeschis după fix] Codul OTP de autentificare nu ajunge prin SMS",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.11.0 (WB-1034). Pentru numerele din România și Italia, SMS-ul cu codul de autentificare ajunge cu întârziere sau deloc.",
+      "severity": "Mare",
+      "reports": 279,
+      "version_reported": "3.13.0",
+      "status": "În lucru",
+      "fix_version": "",
+      "fix_date": "",
+      "closed": "",
+      "team": "Echipa Identitate",
+      "linked": "WB-1034",
+      "keywords_en": "verification code not received; sms code login; can't log in account"
+    },
+    {
+      "id": "WB-1042",
+      "opened": "2026-09-27",
+      "channel": "Web",
+      "category": "Check-in",
+      "feature": "Boarding pass",
+      "title": "[Redeschis după fix] Codul QR de pe boarding pass nu e citit la poartă",
+      "description": "Clienții raportează din nou problema după fix-ul din versiunea 3.12.0 (WB-1036). Codul QR generat în aplicație are contrast prea mic în modul întunecat. Scannerele de la poartă nu îl citesc.",
+      "severity": "Mare",
+      "reports": 43,
+      "version_reported": "3.13.0",
+      "status": "Nou",
+      "fix_version": "",
+      "fix_date": "",
+      "closed": "",
+      "team": "Echipa Mobile",
+      "linked": "WB-1036",
+      "keywords_en": "boarding pass qr not scanning; gate scanner rejected; dark mode boarding pass"
+    },
+    {
+      "id": "WB-1043",
+      "opened": "2026-10-18",
+      "channel": "Call center",
+      "category": "Cont",
+      "feature": "Autentificare",
+      "title": "[Duplicat] Codul OTP de autentificare nu ajunge prin SMS",
+      "description": "Raportare nouă pentru aceeași problemă, încă deschisă în WB-1041. Pentru numerele din România și Italia, SMS-ul cu codul de autentificare ajunge cu întârziere sau deloc.",
+      "severity": "Mare",
+      "reports": 267,
+      "version_reported": "3.14.0",
+      "status": "În lucru",
+      "fix_version": "",
+      "fix_date": "",
+      "closed": "",
+      "team": "Echipa Identitate",
+      "linked": "WB-1041",
+      "keywords_en": "verification code not received; sms code login; can't log in account"
+    }
+  ],
+  "releases": [
+    {
+      "version": "3.14.0",
+      "date": "2026-10-15",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "fixes": [
+        {
+          "ticket": "WB-1039",
+          "text": "Cererile de rambursare rămân „În procesare” peste 30 de zile"
+        }
+      ],
+      "features": [
+        "Plată cu Apple Pay și Google Pay"
+      ]
+    },
+    {
+      "version": "3.13.0",
+      "date": "2026-09-25",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "fixes": [
+        {
+          "ticket": "WB-1038",
+          "text": "Reducerea BeeClub nu se aplică la bagaje"
+        }
+      ],
+      "features": [
+        "Asistent chat pentru întrebări despre bagaje"
+      ]
+    },
+    {
+      "version": "3.12.0",
+      "date": "2026-09-05",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "fixes": [
+        {
+          "ticket": "WB-1035",
+          "text": "Plata e respinsă, dar suma e blocată pe card"
+        },
+        {
+          "ticket": "WB-1036",
+          "text": "Codul QR de pe boarding pass nu e citit la poartă"
+        },
+        {
+          "ticket": "WB-1037",
+          "text": "Încărcare lentă a paginii de plată pe web"
+        }
+      ],
+      "features": [
+        "Portofel BeeCredit pentru rambursări"
+      ]
+    },
+    {
+      "version": "3.11.0",
+      "date": "2026-08-17",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "fixes": [
+        {
+          "ticket": "WB-1027",
+          "text": "Check-in-ul online eșuează pentru grupuri de peste 4 pasageri"
+        },
+        {
+          "ticket": "WB-1029",
+          "text": "Harta de locuri nu se încarcă pentru zborurile cu A321neo"
+        },
+        {
+          "ticket": "WB-1031",
+          "text": "Cererile de rambursare rămân „În procesare” peste 30 de zile"
+        },
+        {
+          "ticket": "WB-1033",
+          "text": "Reducerea BeeClub nu se aplică la bagaje"
+        },
+        {
+          "ticket": "WB-1034",
+          "text": "Codul OTP de autentificare nu ajunge prin SMS"
+        }
+      ],
+      "features": [
+        "Transfer de nume pe bilet din cont"
+      ]
+    },
+    {
+      "version": "3.10.0",
+      "date": "2026-07-29",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "fixes": [
+        {
+          "ticket": "WB-1024",
+          "text": "Familiile sunt așezate separat deși au plătit locuri"
+        },
+        {
+          "ticket": "WB-1026",
+          "text": "Asistentul chat repetă aceleași răspunsuri și nu transferă la un agent"
+        },
+        {
+          "ticket": "WB-1030",
+          "text": "Nu se trimite email la întârzieri de peste 3 ore"
+        },
+        {
+          "ticket": "WB-1032",
+          "text": "Încărcare lentă a paginii de plată pe web"
+        }
+      ],
+      "features": [
+        "Comparare tarife pe 7 zile"
+      ]
+    },
+    {
+      "version": "3.9.0",
+      "date": "2026-07-10",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "fixes": [
+        {
+          "ticket": "WB-1023",
+          "text": "Plata e respinsă, dar suma e blocată pe card"
+        }
+      ],
+      "features": [
+        "Istoric rezervări cu export PDF"
+      ]
+    },
+    {
+      "version": "3.8.0",
+      "date": "2026-06-18",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "fixes": [
+        {
+          "ticket": "WB-1016",
+          "text": "Harta de locuri nu se încarcă pentru zborurile cu A321neo"
+        },
+        {
+          "ticket": "WB-1020",
+          "text": "Ghidul de dimensiuni pentru bagajul de mână e neclar"
+        },
+        {
+          "ticket": "WB-1022",
+          "text": "Codul QR de pe boarding pass nu e citit la poartă"
+        }
+      ],
+      "features": [
+        "Asistență specială (PRM) direct din aplicație"
+      ]
+    },
+    {
+      "version": "3.7.0",
+      "date": "2026-05-30",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "fixes": [
+        {
+          "ticket": "WB-1014",
+          "text": "Aplicația iOS se închide la deschiderea rezervării"
+        },
+        {
+          "ticket": "WB-1017",
+          "text": "Familiile sunt așezate separat deși au plătit locuri"
+        },
+        {
+          "ticket": "WB-1018",
+          "text": "Nu se trimite email la întârzieri de peste 3 ore"
+        },
+        {
+          "ticket": "WB-1021",
+          "text": "Cererile de rambursare rămân „În procesare” peste 30 de zile"
+        }
+      ],
+      "features": [
+        "Check-in automat cu 48h înainte"
+      ]
+    },
+    {
+      "version": "3.6.0",
+      "date": "2026-05-11",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "fixes": [
+        {
+          "ticket": "WB-1008",
+          "text": "Prețul bagajului de cală crește după rezervare"
+        },
+        {
+          "ticket": "WB-1009",
+          "text": "Plata e respinsă, dar suma e blocată pe card"
+        },
+        {
+          "ticket": "WB-1010",
+          "text": "Prețul în RON diferă între căutare și plată"
+        },
+        {
+          "ticket": "WB-1011",
+          "text": "Priority Boarding nu apare pe boarding pass după upgrade"
+        },
+        {
+          "ticket": "WB-1015",
+          "text": "Căutarea flexibilă afișează zboruri anulate"
+        }
+      ],
+      "features": [
+        "Mod întunecat în aplicația mobilă"
+      ]
+    },
+    {
+      "version": "3.5.0",
+      "date": "2026-04-21",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "fixes": [
+        {
+          "ticket": "WB-1006",
+          "text": "Rambursarea se face automat în BeeCredit în loc de card"
+        }
+      ],
+      "features": [
+        "Alegerea mesei calde la rezervare"
+      ]
+    },
+    {
+      "version": "3.4.0",
+      "date": "2026-04-01",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "fixes": [],
+      "features": [
+        "Abonament BeeClub cu reducere la bagaje"
+      ]
+    },
+    {
+      "version": "3.3.0",
+      "date": "2026-03-12",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "fixes": [
+        {
+          "ticket": "WB-1002",
+          "text": "Rambursarea se face automat în BeeCredit în loc de card"
+        },
+        {
+          "ticket": "WB-1003",
+          "text": "Boarding pass-ul nu se descarcă pe Android 14"
+        },
+        {
+          "ticket": "WB-1005",
+          "text": "Modificarea numelui pe bilet cere taxă chiar și pentru o greșeală de tastare"
+        }
+      ],
+      "features": [
+        "Notificări push pentru schimbarea porții"
+      ]
+    },
+    {
+      "version": "3.2.0",
+      "date": "2026-02-19",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "fixes": [],
+      "features": [
+        "Plată în rate pentru rezervări peste 500 €"
+      ]
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-01-31",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "fixes": [
+        {
+          "ticket": "WB-1001",
+          "text": "Notificarea de schimbare a porții ajunge după îmbarcare"
+        }
+      ],
+      "features": [
+        "Boarding pass salvabil offline"
+      ]
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-01-12",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "fixes": [],
+      "features": [
+        "Hartă de locuri redesenată, cu filtru pentru locuri lângă ieșire"
+      ]
+    }
+  ]
+}

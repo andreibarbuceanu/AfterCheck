@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.db
+*.sqlite*
+.output/
+.vinxi/
+.wrangler/
+dist/
+backend/data/screenshots/
+backend/data/last_import.xlsx
+

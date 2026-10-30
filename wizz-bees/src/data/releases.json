@@ -1,0 +1,337 @@
+[
+  {
+    "version": "3.14.0",
+    "date": "2026-10-15",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "fixes": [
+      {
+        "ticket": "WB-1039",
+        "text": "Cererile de rambursare rămân „În procesare” peste 30 de zile"
+      }
+    ],
+    "features": [
+      "Plată cu Apple Pay și Google Pay"
+    ]
+  },
+  {
+    "version": "3.13.0",
+    "date": "2026-09-25",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "fixes": [
+      {
+        "ticket": "WB-1038",
+        "text": "Reducerea BeeClub nu se aplică la bagaje"
+      }
+    ],
+    "features": [
+      "Asistent chat pentru întrebări despre bagaje"
+    ]
+  },
+  {
+    "version": "3.12.0",
+    "date": "2026-09-05",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "fixes": [
+      {
+        "ticket": "WB-1035",
+        "text": "Plata e respinsă, dar suma e blocată pe card"
+      },
+      {
+        "ticket": "WB-1036",
+        "text": "Codul QR de pe boarding pass nu e citit la poartă"
+      },
+      {
+        "ticket": "WB-1037",
+        "text": "Încărcare lentă a paginii de plată pe web"
+      }
+    ],
+    "features": [
+      "Portofel BeeCredit pentru rambursări"
+    ]
+  },
+  {
+    "version": "3.11.0",
+    "date": "2026-08-17",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "fixes": [
+      {
+        "ticket": "WB-1027",
+        "text": "Check-in-ul online eșuează pentru grupuri de peste 4 pasageri"
+      },
+      {
+        "ticket": "WB-1029",
+        "text": "Harta de locuri nu se încarcă pentru zborurile cu A321neo"
+      },
+      {
+        "ticket": "WB-1031",
+        "text": "Cererile de rambursare rămân „În procesare” peste 30 de zile"
+      },
+      {
+        "ticket": "WB-1033",
+        "text": "Reducerea BeeClub nu se aplică la bagaje"
+      },
+      {
+        "ticket": "WB-1034",
+        "text": "Codul OTP de autentificare nu ajunge prin SMS"
+      }
+    ],
+    "features": [
+      "Transfer de nume pe bilet din cont"
+    ]
+  },
+  {
+    "version": "3.10.0",
+    "date": "2026-07-29",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "fixes": [
+      {
+        "ticket": "WB-1024",
+        "text": "Familiile sunt așezate separat deși au plătit locuri"
+      },
+      {
+        "ticket": "WB-1026",
+        "text": "Asistentul chat repetă aceleași răspunsuri și nu transferă la un agent"
+      },
+      {
+        "ticket": "WB-1030",
+        "text": "Nu se trimite email la întârzieri de peste 3 ore"
+      },
+      {
+        "ticket": "WB-1032",
+        "text": "Încărcare lentă a paginii de plată pe web"
+      }
+    ],
+    "features": [
+      "Comparare tarife pe 7 zile"
+    ]
+  },
+  {
+    "version": "3.9.0",
+    "date": "2026-07-10",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "fixes": [
+      {
+        "ticket": "WB-1023",
+        "text": "Plata e respinsă, dar suma e blocată pe card"
+      }
+    ],
+    "features": [
+      "Istoric rezervări cu export PDF"
+    ]
+  },
+  {
+    "version": "3.8.0",
+    "date": "2026-06-18",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "fixes": [
+      {
+        "ticket": "WB-1016",
+        "text": "Harta de locuri nu se încarcă pentru zborurile cu A321neo"
+      },
+      {
+        "ticket": "WB-1020",
+        "text": "Ghidul de dimensiuni pentru bagajul de mână e neclar"
+      },
+      {
+        "ticket": "WB-1022",
+        "text": "Codul QR de pe boarding pass nu e citit la poartă"
+      }
+    ],
+    "features": [
+      "Asistență specială (PRM) direct din aplicație"
+    ]
+  },
+  {
+    "version": "3.7.0",
+    "date": "2026-05-30",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "fixes": [
+      {
+        "ticket": "WB-1014",
+        "text": "Aplicația iOS se închide la deschiderea rezervării"
+      },
+      {
+        "ticket": "WB-1017",
+        "text": "Familiile sunt așezate separat deși au plătit locuri"
+      },
+      {
+        "ticket": "WB-1018",
+        "text": "Nu se trimite email la întârzieri de peste 3 ore"
+      },
+      {
+        "ticket": "WB-1021",
+        "text": "Cererile de rambursare rămân „În procesare” peste 30 de zile"
+      }
+    ],
+    "features": [
+      "Check-in automat cu 48h înainte"
+    ]
+  },
+  {
+    "version": "3.6.0",
+    "date": "2026-05-11",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "fixes": [
+      {
+        "ticket": "WB-1008",
+        "text": "Prețul bagajului de cală crește după rezervare"
+      },
+      {
+        "ticket": "WB-1009",
+        "text": "Plata e respinsă, dar suma e blocată pe card"
+      },
+      {
+        "ticket": "WB-1010",
+        "text": "Prețul în RON diferă între căutare și plată"
+      },
+      {
+        "ticket": "WB-1011",
+        "text": "Priority Boarding nu apare pe boarding pass după upgrade"
+      },
+      {
+        "ticket": "WB-1015",
+        "text": "Căutarea flexibilă afișează zboruri anulate"
+      }
+    ],
+    "features": [
+      "Mod întunecat în aplicația mobilă"
+    ]
+  },
+  {
+    "version": "3.5.0",
+    "date": "2026-04-21",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "fixes": [
+      {
+        "ticket": "WB-1006",
+        "text": "Rambursarea se face automat în BeeCredit în loc de card"
+      }
+    ],
+    "features": [
+      "Alegerea mesei calde la rezervare"
+    ]
+  },
+  {
+    "version": "3.4.0",
+    "date": "2026-04-01",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "fixes": [],
+    "features": [
+      "Abonament BeeClub cu reducere la bagaje"
+    ]
+  },
+  {
+    "version": "3.3.0",
+    "date": "2026-03-12",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "fixes": [
+      {
+        "ticket": "WB-1002",
+        "text": "Rambursarea se face automat în BeeCredit în loc de card"
+      },
+      {
+        "ticket": "WB-1003",
+        "text": "Boarding pass-ul nu se descarcă pe Android 14"
+      },
+      {
+        "ticket": "WB-1005",
+        "text": "Modificarea numelui pe bilet cere taxă chiar și pentru o greșeală de tastare"
+      }
+    ],
+    "features": [
+      "Notificări push pentru schimbarea porții"
+    ]
+  },
+  {
+    "version": "3.2.0",
+    "date": "2026-02-19",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "fixes": [],
+    "features": [
+      "Plată în rate pentru rezervări peste 500 €"
+    ]
+  },
+  {
+    "version": "3.1.0",
+    "date": "2026-01-31",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "fixes": [
+      {
+        "ticket": "WB-1001",
+        "text": "Notificarea de schimbare a porții ajunge după îmbarcare"
+      }
+    ],
+    "features": [
+      "Boarding pass salvabil offline"
+    ]
+  },
+  {
+    "version": "3.0.0",
+    "date": "2026-01-12",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "fixes": [],
+    "features": [
+      "Hartă de locuri redesenată, cu filtru pentru locuri lângă ieșire"
+    ]
+  }
+]
