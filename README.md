@@ -6,6 +6,28 @@ AfterCheck is a post-release verification prototype developed during the **ITFes
 
 The prototype combines automated browser checks with the evolution of customer-reported issues after a release. The current dataset is demonstrative, and **WizzBees is a fictional application used only as a testing environment**.
 
+## Screenshots
+
+### Dashboard
+
+![AfterCheck dashboard](docs/screenshots/dashboard.jpg)
+
+### Ticket overview
+
+![AfterCheck tickets](docs/screenshots/tickets.jpg)
+
+### Post-release reports
+
+![AfterCheck reports](docs/screenshots/reports.jpg)
+
+### Import flow
+
+![AfterCheck import](docs/screenshots/import.jpg)
+
+### WizzBees demo application
+
+![WizzBees testing environment](docs/screenshots/wizzbees.jpg)
+
 ## How it works
 
 1. Import the initial ticket batch from Excel.
